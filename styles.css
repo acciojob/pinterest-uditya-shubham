@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+    .hero{
+            display:flex;
+            justify-content: space-around;
+            align-items: initial;
+            width: 100vw;
+            height: 100vh;
+
+        }
+        .image{
+            width: 60vw;
+            height:40vh;
+            object-fit: cover;
+        }
+        .details{
+            /* padding: 3%; */
+            width: 20vw;
+            /* height: 16.5vh; */
+            
+        }
+
+
+      
+        .button{
+            padding: 2%;
+            background-color: red;
+            color: white;
+            border-radius: 0%;
+            border-style: none;
+        }
